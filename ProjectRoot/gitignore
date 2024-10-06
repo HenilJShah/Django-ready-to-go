@@ -1,0 +1,44 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environment files
+*.env
+*.venv
+*.env.local
+*.env.*.local
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+
+# Ignore migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Ignore database files
+*.sqlite3
+
+# Ignore local settings
+local_settings.py
+
+# Ignore IDE-specific files
+.vscode/
+**/.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage files
+.coverage
+coverage.xml
+*.cover
+*.egg-info/
+dist/
+build/
